@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;  
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.login-container{
+    background-image: url("./Login_netflix_bgr.jpg");
+    height: 1086px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.login-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0 , 0, 0.4);
+}
+
+.login-header{
+    padding-top: 20px;
+    padding-left: 46px;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index:1;
+}
+
+.login-header a{
+    font-size: 5rem;
+    color:#E50914;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.login-body{
+    width: 450px;
+    height: 660px;
+    background-color: rgb(0, 0 , 0, 0.75);
+    position: absolute;
+    top:90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    padding: 60px 70px 0;
+}
+
+.login-form-header{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff
+}
+
+.login-form-input{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    background-color: #333333;
+    padding: 0 16px;
+    color: #fff;
+    outline: none;
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+
+.login-form-input:focus{
+    border-bottom: 3px solid #966024;
+}
+
+
+.login-form-button{
+    color: #fff;
+    background-color: #E50914;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 16px;
+    border: 0;
+    border-radius: 4px;
+    font-family: 700;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.login-form-help{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    color: #737373;
+}
+
+.rememberMe-cbx{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    accent-color: #737373;
+}
+
+.remember-lbl{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 3px;
+}
+
+.help-link{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #737373;
+}
+
+.login-form-other{
+    margin-top: 60px;
+}
+
+.login-fb-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.login-fb{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:  #737373;
+}
+
+.login-fb-text{
+    position: relative;
+    bottom: 6px;
+}
+
+.login-form-signupnow{
+    font-size: 1.6rem;
+    color: #737373;
+    margin-top: 16px;
+}
+
+.login-form-signupnow a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-form-signupnow a:hover{
+    text-decoration: underline;
+}
+
+.login-term{
+    color: #737373;
+    font-size: 1.3rem;
+    margin-top: 16px;
+}
+
+.login-term p{
+    display: inline;
+}
+
+.login-term a{
+    text-decoration: none;
+}
